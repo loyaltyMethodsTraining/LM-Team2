@@ -96,14 +96,16 @@
     }
 
     .button-group button {
-      padding: 10px 15px;
-      font-size: 16px;
-      border: none;
-      background-color: #007BFF;
-      color: white;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
+      width: 100%;            
+  padding: 10px;            
+  font-size: 16px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
     }
 
     .button-group button:hover {

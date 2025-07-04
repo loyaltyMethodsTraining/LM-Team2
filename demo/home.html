@@ -4,27 +4,36 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Homepage</title>
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="linking.css">
 </head>
 <body>
 
   <header>
-    <h1>My Website</h1>
-    <p>Welcome to the homepage</p>
+   <div class="parent">
+            <img src="https://loyaltymethods.com/wp-content/uploads/2024/05/LM-Logo-1.svg" alt="loyalty" class="parent__logo">
+        
+            <div class="parent__menu">
+                <a href="#"><i class="fas fa-home"></i>Home</a>
+                <a href="#"><i class="fas fa-users"></i>About Us</a>
+                <a href="#"><i class="fas fa-blog"></i>Blog</a>
+                <a href="#"><i class="fas fa-envelope"></i>Contact</a>
+                <a href="#"><i class="fas fa-sign-in-alt"></i>Sign In</a>
+            </div>
+        </div>
   </header>
 
   <main>
-    <h2>Main Menu</h2>
+    <h2>Home</h2>
     <div class="button-group">
-      <button onclick="location.href='#'">Home</button>
-      <button onclick="location.href='#'">About</button>
-      <button onclick="location.href='#'">Contact</button>
+      <button onclick="location.href='./HeadPhones.html'">HeadPhones</button>
+      <button onclick="location.href='./Laptop.html'">Laptop</button>
+      <button onclick="location.href='./Mobile.html'">Mobile</button>
     </div>
   </main>
 
-  <footer>
+  <!-- <footer>
     <p>&copy; 2025 My Website. All rights reserved.</p>
-  </footer>
+  </footer> -->
 
 </body>
 </html>

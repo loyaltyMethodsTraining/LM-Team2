@@ -1,118 +1,67 @@
-/* Reset and Global Styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-/* Header Styles */
 header {
-  background-color: #f0f0f0;
-  border-bottom: 2px solid green;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
+      position: sticky;
+      top: 0;
+      background-color: #f0f0f0;
+      z-index: 999;
+      border-bottom: 2px solid green;
+    }
 
-.parent {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 80px;
-  padding: 0 20px;
-}
+    .parent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 80px;
+      padding: 0 20px;
+    }
 
-.parent__logo {
-  height: 60px;
-  width: auto;
-}
+    .parent__logo {
+      height: 60px;
+      width: auto;
+    }
 
-.parent__menu {
-  display: flex;
-  gap: 30px;
-}
+    .parent__menu {
+      display: flex;
+      gap: 30px;
+    }
 
-.parent__menu > a {
-  font-size: 1rem;
-  color: black;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  transition: color 0.3s ease;
-}
+    .parent__menu a {
+      text-decoration: none;
+      color: black;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+    }
 
-.parent__menu > a i {
-  margin-right: 6px;
-}
+    .parent__menu a i {
+      margin-right: 6px;
+    }
 
-.parent__menu > a:hover {
-  color: teal;
-}
+    .parent__menu a:hover {
+      color: teal;
+    }
 
-/* Main Section */
-main {
-  padding: 40px 20px;
-  text-align: center;
-  background-color: white;
-}
+    main {
+      padding: 20px;
+      text-align: center;
+      background-color: #fff;
+    }
 
-/* Buttons */
-.button-group {
-  margin-top: 20px;
-}
+    .button-group {
+      margin-top: 20px;
+    }
 
-.button-group button {
-  padding: 10px 20px;
-  margin: 10px;
-  font-size: 16px;
-  cursor: pointer;
-  border: none;
-  background-color: #007BFF;
-  color: white;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
+    .button-group button {
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
 
-.button-group button:hover {
-  background-color: #0056b3;
-}
-
-/* Footer */
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-}
-
-/* Responsive Design */
-@media (max-width: 990px) {
-  .parent__menu {
-    display: none;
-  }
-
-  .parent {
-    justify-content: center;
-  }
-
-  .parent__logo {
-    width: 30vw;
-  }
-
-  .button-group {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .button-group button {
-    width: 80%;
-    max-width: 300px;
-  }
-}
+    .button-group button:hover {
+      background-color: #0056b3;
+    }
